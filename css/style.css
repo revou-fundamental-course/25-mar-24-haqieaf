@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+/* header kalkulato BMI */
 .container-header {
     background-color: #72b975e7;
     color: white;
@@ -15,12 +16,14 @@ h1 {
     margin: 0;
 }
 
+/* container utama */
 .main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/*  form inputan dan hasil */
 .container-item {
     border: none;
     width: 100%;
@@ -32,11 +35,13 @@ h1 {
     box-sizing: border-box;
 }
 
+
 .container-item > h2 {
     margin-top: 0;
     font-size: 24px;
 }
 
+/*  */
 .container-form {
     padding: 24px;
     text-align: left;
