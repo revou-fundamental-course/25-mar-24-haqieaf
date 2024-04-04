@@ -1,2 +1,94 @@
-/* test git */
-/* ada perubahan */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-header {
+    background-color: #72b975e7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-item {
+    border: none;
+    width: 100%;
+    max-width: 500px; /* Adjust max-width as per your requirement */
+    font-size: 12px;
+    margin: 10px;
+    padding: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container-item > h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.container-form {
+    padding: 24px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbffe075;
+}
+
+.container-result {
+    text-align: center;
+    background-color: #dbffe075;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+
+.container-form > div {
+    padding: 8px;
+}
+
+#input-weight,
+#input-age,
+#input-height {
+    margin-top: 7px;
+    width: calc(100% - 16px); /* Adjust width as per your requirement */
+    height: 25px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    border: none;
+    height: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+#calculate-button {
+    background-color: rgb(214, 214, 214);
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+p {
+    text-align: justify;
+}
